@@ -16,8 +16,8 @@ public class CarBrandServiceImpl {
             brandRepo.create(carBrand);
         }
 
-        brandRepo.delete(5);
-        brandRepo.update(8, new CarBrand(8, "Mazda"));
+        brandRepo.delete(3);
+        brandRepo.update(5, new CarBrand(5, "Mazda"));
 
         for (CarBrand carBrand:brandRepo.readAll()){
             System.out.println("Brand id" +carBrand.getId()
