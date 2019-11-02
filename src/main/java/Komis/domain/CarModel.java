@@ -1,3 +1,5 @@
+// CAR MODEL RELATED THINGS TO BE FINISHED
+
 package Komis.domain;
 
 public class CarModel {
